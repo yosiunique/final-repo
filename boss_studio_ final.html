@@ -1,0 +1,270 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>BOSS STUDIO — Besufekad Getahun</title>
+  <meta name="description" content="BOSS STUDIO — Besufekad Getahun. Professional cameraman for music videos, commercials, film production and events." />
+  <style>
+    :root {
+      --bg: #0b0b0b;
+      --gold: #c89a3a;
+      --muted: #bfbfbf;
+      --card: #111111;
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, Arial;
+    }
+    * {
+      box-sizing: border-box;
+    }
+    body {
+      margin: 0;
+      background: #000;
+      color: #eee;
+      min-height: 100vh;
+    }
+    .container {
+      max-width: 1100px;
+      margin: 36px auto;
+      padding: 28px;
+    }
+    header {
+      display: flex;
+      align-items: center;
+      gap: 18px;
+    }
+    .logo-wrap {
+      width: 120px;
+      height: 120px;
+      flex: 0 0 120px;
+      border-radius: 12px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .logo-wrap img {
+      max-width: 100%;
+      max-height: 100%;
+      object-fit: contain;
+      border-radius: 8px;
+    }
+    h1 {
+      font-size: 28px;
+      margin: 0;
+    }
+    .sub {
+      color: var(--muted);
+      font-size: 14px;
+      margin-top: 6px;
+    }
+    .hero {
+      display: flex;
+      gap: 36px;
+      margin-top: 28px;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+    .hero h2 {
+      font-size: 40px;
+      margin: 0 0 10px 0;
+      color: var(--gold);
+    }
+    .lead {
+      color: var(--muted);
+      line-height: 1.6;
+    }
+    .btn {
+      background: var(--gold);
+      color: #000;
+      padding: 12px 18px;
+      border-radius: 10px;
+      font-weight: 600;
+      border: none;
+      cursor: pointer;
+    }
+    .btn.secondary {
+      background: transparent;
+      border: 1px solid rgba(200, 154, 58, 0.3);
+      color: var(--gold);
+    }
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 16px;
+      margin-top: 26px;
+    }
+    .card {
+      background: var(--card);
+      padding: 18px;
+      border-radius: 12px;
+    }
+    .card h3 {
+      margin: 0 0 8px 0;
+      color: var(--gold);
+    }
+    .muted {
+      color: var(--muted);
+      font-size: 14px;
+    }
+    .portfolio {
+      margin-top: 40px;
+    }
+    .video-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 20px;
+      margin-top: 16px;
+    }
+    .video-card {
+      background: #111;
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+      display: flex;
+      flex-direction: column;
+    }
+    .video-card img {
+      width: 100%;
+      height: auto;
+      object-fit: contain;
+      display: block;
+      background: #000; /* Optional: adds contrast if images have transparency */
+    }
+    .video-card p {
+      margin: 8px 12px 4px 12px;
+      color: var(--muted);
+      font-weight: 600;
+      font-size: 15px;
+    }
+    .video-card .desc {
+      margin: 0 12px 12px 12px;
+      color: var(--muted);
+      font-size: 13px;
+      line-height: 1.4;
+      flex-grow: 1;
+    }
+    footer {
+      margin-top: 40px;
+      padding: 20px;
+      border-radius: 12px;
+      background: linear-gradient(180deg, rgba(255, 255, 255, 0.05), transparent);
+    }
+    .contact-grid {
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+    .contact-item {
+      flex: 1;
+      min-width: 220px;
+    }
+    .small {
+      font-size: 13px;
+      color: var(--muted);
+    }
+    @media(max-width:600px){
+      .hero h2 {
+        font-size: 30px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="logo-wrap">
+        <img src="jboss.jpg" alt="BOSS STUDIO logo" />
+      </div>
+      <div>
+        <h1>BOSS STUDIO</h1>
+        <div class="sub">Besufekad Getahun — Professional Cameraman</div>
+      </div>
+    </header>
+
+    <section class="hero">
+      <div>
+        <h2>WELCOME TO MY WEBSITE</h2>
+        <p class="lead">My name is <strong>BESUFEKAD GETAHUN</strong>. I am a professional cameraman experienced in music videos, commercials, film production, and event videography. I currently work at <strong>LG Studio</strong> while offering freelance services. I tell powerful visual stories that connect with audiences.</p>
+        <p class="lead"><strong>Monthly rate:</strong> $300–$350 (depending on project scope)</p>
+        <div style="margin-top:16px">
+          <button class="btn" onclick="window.location='#portfolio'">View Portfolio</button>
+          <button class="btn secondary" onclick="window.location='#contact'">Book Now</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="cards">
+      <div class="card">
+        <h3>Services</h3>
+        <p class="muted">Music videos · Commercials · Film production · Event videography · Camera operation</p>
+      </div>
+      <div class="card">
+        <h3>Equipment</h3>
+        <p class="muted">Professional camera setups, lenses, lighting & audio support (available on request)</p>
+      </div>
+      <div class="card">
+        <h3>Delivery</h3>
+        <p class="muted">High-resolution footage, color grading, and digital delivery through online transfer or media drive.</p>
+      </div>
+    </section>
+
+    <section id="portfolio" class="portfolio">
+      <h2 style="color:var(--gold);margin-bottom:8px">Selected Work</h2>
+      <p class="muted">A sample collection of my videography projects (image previews).</p>
+      <div class="video-grid">
+        <div class="video-card">
+          <img src="project-1.jpg" alt="Wedding">
+          <p>Wedding</p>
+          <p class="desc">Capturing the beautiful and intimate moments of weddings with a cinematic approach to tell timeless love stories.</p>
+        </div>
+        <div class="video-card">
+          <img src="project-2.jpg" alt="Southern Omo People">
+          <p>Southern Omo People</p>
+          <p class="desc">Documenting the vibrant culture and traditions of the Southern Omo communities through authentic and respectful videography.</p>
+        </div>
+        <div class="video-card">
+          <img src="project-3.jpg" alt="Event Coverage • Wedding Highlights">
+          <p>Event Coverage • Wedding Highlights</p>
+          <p class="desc">Professional event videography that highlights the energy and emotions of your special day with seamless storytelling.</p>
+        </div>
+        <div class="video-card">
+          <img src="project-4.jpg" alt="Wedding">
+          <p>Wedding</p>
+          <p class="desc">Creating stunning visuals that preserve every detail and emotion of weddings, making memories last forever.</p>
+        </div>
+        <div class="video-card">
+          <img src="project-5.jpg" alt="Omo People">
+          <p>Omo People</p>
+          <p class="desc">An insightful visual journey capturing the life and culture of the Omo people, emphasizing their unique heritage.</p>
+        </div>
+        <div class="video-card">
+          <img src="project-7n.png" alt="Documentary • Cultural Story">
+          <p>Documentary • Cultural Story</p>
+          <p class="desc">Engaging documentary storytelling that brings cultural stories to life with passion and authenticity.</p>
+        </div>
+      </div>
+    </section>
+
+    <footer id="contact">
+      <h3 style="color:var(--gold)">Get in Touch</h3>
+      <div class="contact-grid">
+        <div class="contact-item">
+          <div class="small">Phone</div>
+          <div><strong>0960681832</strong></div>
+        </div>
+        <div class="contact-item">
+          <div class="small">Email</div>
+          <div><a href="mailto:besufkad2getahun@gmail.com">besufkad2getahun@gmail.com</a></div>
+        </div>
+        <div class="contact-item">
+          <div class="small">Bank (Payments)</div>
+          <div><strong>1000357269311</strong></div>
+        </div>
+      </div>
+      <div style="margin-top:16px">
+        <a class="btn" href="mailto:besufkad2getahun@gmail.com?subject=Booking%20Request">Book a Project</a>
+      </div>
+      <p class="small" style="margin-top:20px;color:var(--muted)">© BOSS STUDIO — Besufekad Getahun</p>
+    </footer>
+  </div>
+</body>
+</html>
